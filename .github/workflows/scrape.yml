@@ -25,7 +25,7 @@ jobs:
       - name: Validate CSV Header
         run: |
           expected_header="_id,operator_registration_number,address,unit,postal_code,property_type,ward_number,ward_name"
-          actual_header=$(head -n 1 short-term-rental-registrations-data.csv)
+          actual_header=$(head -n 1 short-term-rental-registrations-data.csv | tr -d '\r')
           if [ "$actual_header" != "$expected_header" ]; then
             echo "CSV header does not match the expected header."
             echo "Expected: $expected_header"
@@ -36,7 +36,7 @@ jobs:
 
       - name: Process CSV File (Remove _id Column)
         run: |
-          awk -F',' 'BEGIN {OFS=","} {for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
+          awk -F',' 'BEGIN {OFS=","} {if(NR>1){for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
         working-directory: city-of-toronto-short-term-rentals-registration
 
       - name: Commit and Push if Files Changed
