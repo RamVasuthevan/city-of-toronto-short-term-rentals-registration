@@ -1,4 +1,4 @@
-name: Download and Push File
+name: Download, Validate, Process CSV, and Push File
 
 on:
   workflow_dispatch:
@@ -6,21 +6,39 @@ on:
     - cron: '0 0 * * *'  # Run daily at UTC midnight
 
 jobs:
-  download_data:
+  process_csv:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout city-of-toronto-short-term-rentals-registration 
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_CITYOFTORONTOSHORTTERMRENTALSREGISTR }}
-          repository: 'RamVasuthevan/city-of-toronto-short-term-rentals-registration '
-          path: city-of-toronto-short-term-rentals-registration 
+          repository: 'RamVasuthevan/city-of-toronto-short-term-rentals-registration'
+          path: city-of-toronto-short-term-rentals-registration
           ref: 'main'
 
       - name: Download File
         run: |
-              curl -o city-of-toronto-short-term-rentals-registration/short-term-rental-registrations-data.csv https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/2ab20f80-3599-486a-8f8a-9cb59117977c/resource/9c235257-b09f-441e-bcad-1495607f9a82/download/short-term-rental-registrations-data.csv      
-      
+          curl -o short-term-rental-registrations-data.csv https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/2ab20f80-3599-486a-8f8a-9cb59117977c/resource/9c235257-b09f-441e-bcad-1495607f9a82/download/short-term-rental-registrations-data.csv
+        working-directory: city-of-toronto-short-term-rentals-registration
+
+      - name: Validate CSV Header
+        run: |
+          expected_header="_id,operator_registration_number,address,unit,postal_code,property_type,ward_number,ward_name"
+          actual_header=$(head -n 1 short-term-rental-registrations-data.csv)
+          if [ "$actual_header" != "$expected_header" ]; then
+            echo "CSV header does not match the expected header."
+            echo "Expected: $expected_header"
+            echo "Found: $actual_header"
+            exit 1
+          fi
+        working-directory: city-of-toronto-short-term-rentals-registration
+
+      - name: Process CSV File (Remove _id Column)
+        run: |
+          awk -F',' 'BEGIN {OFS=","} {for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
+        working-directory: city-of-toronto-short-term-rentals-registration
+
       - name: Commit and Push if Files Changed
         run: |
           cd city-of-toronto-short-term-rentals-registration
@@ -28,6 +46,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add short-term-rental-registrations-data.csv
           timestamp=$(date -u)
-          git commit -m "Downloaded: ${timestamp}: commit: ${{github.sha}}" || exit 0
-          # Use force push to push changes
+          git commit -m "Processed and updated CSV: ${timestamp}, commit: ${{github.sha}}" || exit 0
           git push --force
