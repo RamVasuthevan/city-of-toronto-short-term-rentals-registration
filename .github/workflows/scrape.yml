@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.PAT_CITYOFTORONTOSHORTTERMRENTALSREGISTR }}
           repository: 'RamVasuthevan/city-of-toronto-short-term-rentals-registration'
           path: city-of-toronto-short-term-rentals-registration
-          ref: 'main'
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref || 'main' }}
 
       - name: Download File
         run: |
@@ -36,9 +36,9 @@ jobs:
 
       - name: Process CSV File (Remove _id Column)
         run: |
-          awk -F',' 'BEGIN {OFS=","} {if(NR>1){for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
+          awk -F',' 'BEGIN {OFS=","} {if(NR==1){for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)} else {for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
         working-directory: city-of-toronto-short-term-rentals-registration
-
+      
       - name: Commit and Push if Files Changed
         run: |
           cd city-of-toronto-short-term-rentals-registration
@@ -46,5 +46,11 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add short-term-rental-registrations-data.csv
           timestamp=$(date -u)
+          # Extract branch name from github.ref, assuming it's in refs/heads/branch_name format
+          branch_name=$(echo $GITHUB_REF | sed -e "s/^refs\/heads\///")
           git commit -m "Processed and updated CSV: ${timestamp}, commit: ${{github.sha}}" || exit 0
-          git push --force
+          # Push to the dynamically determined branch name
+          git push origin HEAD:$branch_name --force
+        env:
+          GITHUB_REF: ${{ github.ref }}
+      
