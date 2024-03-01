@@ -36,7 +36,7 @@ jobs:
 
       - name: Process CSV File (Remove _id Column)
         run: |
-          awk -F',' 'BEGIN {OFS=","} {if(NR>1){for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
+          awk -F',' 'BEGIN {OFS=","} {if(NR==1){for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)} else {for (i=2; i<=NF; i++) printf "%s%s", $i, (i<NF ? OFS : ORS)}}' short-term-rental-registrations-data.csv > temp.csv && mv temp.csv short-term-rental-registrations-data.csv
         working-directory: city-of-toronto-short-term-rentals-registration
       
       - name: Commit and Push if Files Changed
