@@ -1,10 +1,10 @@
 operator_registration_number,address,unit,postal_code,property_type,ward_number,ward_name
 STR-2304-GKDVHS,63 Ossington Ave,Unit C,M6J,Apartment,10,Spadina-Fort York
 STR-2305-GGZBHS,111 Green Gardens Blvd,,M6A,Townhouse/ Row House,8,Eglinton-Lawrence
-STR-2205-GSRBHG,501 St Clair Ave W,1302,M5P,Condominium,12,Toronto-St. Paul's
-STR-2207-HYDDVL,955 Bay St,2001,M5S,Condominium,13,Toronto Centre
-STR-2210-HLKKVK,458 Richmond St W,1109,M5V,Condominium,10,Spadina-Fort York
-STR-2108-FSYBHC,605 Finch Ave W,102,M2R,Apartment,6,York Centre
+STR-2211-FKRPHP,181 Downsview Park Blvd,,M3K,Townhouse/ Row House,6,York Centre
+STR-2303-GFDVHS,48 Grenoble Dr,503,M3C,Apartment,16,Don Valley East
+STR-2304-GZWPHV,4340 bathurst st,507,M3H,Apartment,6,York Centre
+STR-2201-FHHRVB,136 Hallam St,,M6H,Duplex/Triplex/Fourplex,9,Davenport
 STR-2305-GBGDVR,8 Redmount Rd,,M3H,Single/Semi-detached House,6,York Centre
 STR-2307-JCBPHZ,424 Yonge St,718,M5B,Apartment,11,University-Rosedale
 STR-2306-HQWRVX,1356 Queen St E,3,M4L,Apartment,14,Toronto-Danforth
@@ -58,6 +58,7 @@ STR-2009-HJYXPK,1126 Brimley Rd,,M1P,Single/Semi-detached House,21,Scarborough C
 STR-2009-HZLXPM,50 Marchmount Rd,,M6G,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2009-GLWKPG,8 York St,3106,M5J,Condominium,10,Spadina-Fort York
 STR-2009-GVCKPH,32 White Birch Rd,,M1N,Single/Semi-detached House,20,Scarborough Southwest
+STR-2009-GBSXPD,39 Delaware Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2009-HCYXPJ,22 Alma Ave,,M6J,Townhouse/ Row House,9,Davenport
 STR-2009-GGLXPF,48 Dundonald St,,M4Y,Single/Semi-detached House,13,Toronto Centre
 STR-2009-GWYXPH,499 Annette St,,M6P,Single/Semi-detached House,4,Parkdale-High Park
@@ -72,7 +73,6 @@ STR-2009-GYWKPH,147 Broadview Ave,,M4M,Single/Semi-detached House,14,Toronto-Dan
 STR-2009-HXQKPL,1001 Bay St,2703,M5S,Condominium,13,Toronto Centre
 STR-2009-FLFXPB,21 Glen Belle Cres,,M6A,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2009-FTLXPC,29 Parsonage Dr,,M1B,Single/Semi-detached House,25,Scarborough-Rouge Park
-STR-2009-GBSXPD,39 Delaware Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2009-GJYXPF,67 Kildonan Dr,,M1N,Single/Semi-detached House,20,Scarborough Southwest
 STR-2009-HHSXPJ,1240 Bloor St W,2,M6H,Apartment,9,Davenport
 STR-2009-HYFXPL,72 Vauxhall Dr,,M1P,Single/Semi-detached House,21,Scarborough Centre
@@ -174,7 +174,6 @@ STR-2010-JFKRPM,187 Hullmar Dr,,M3N,Single/Semi-detached House,7,Humber River-Bl
 STR-2010-FKVDPB,10 Mountain Ash Crt,Lower level,M9C,Single/Semi-detached House,2,Etobicoke Centre
 STR-2010-HHHDPJ,178 Hopedale Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2010-JGBDPM,151 Dan Leckie Way,557,M5V,Condominium,10,Spadina-Fort York
-STR-2010-GPYXPG,2690 Danforth Ave,A,M4C,Apartment,19,Beaches-East York
 STR-2010-HHXRPJ,73 Beaconsfield Ave,Lower Level,M6J,Single/Semi-detached House,9,Davenport
 STR-2010-FMCKPC,1988 Dufferin St,,M6E,Duplex/Triplex/Fourplex,9,Davenport
 STR-2010-HBJKPJ,23 Bailey Cres,,M1G,Single/Semi-detached House,24,Scarborough-Guildwood
@@ -193,6 +192,7 @@ STR-2010-HLLXPK,492 Ontario St,,M4X,Townhouse/ Row House,13,Toronto Centre
 STR-2010-FQQKPC,972 Danforth Ave,2,M4J,Apartment,14,Toronto-Danforth
 STR-2010-GGCKPF,31 Tracy St,,M5A,Single/Semi-detached House,13,Toronto Centre
 STR-2010-HVJKPL,18 Valley Woods Rd,915,M3A,Condominium,16,Don Valley East
+STR-2010-GPYXPG,2690 Danforth Ave,A,M4C,Apartment,19,Beaches-East York
 STR-2010-GXFXPH,148A Bartlett Ave,150,M6H,Single/Semi-detached House,9,Davenport
 STR-2010-HMSXPK,311 Salem Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2010-HVYXPL,8 Mercer St,3001,M5V,Condominium,10,Spadina-Fort York
@@ -676,6 +676,7 @@ STR-2101-FWWPHD,223 Renforth Dr,,M9C,Single/Semi-detached House,2,Etobicoke Cent
 STR-2101-JBQPHM,83 Oakridge Dr,,M1M,Single/Semi-detached House,20,Scarborough Southwest
 STR-2101-FGZBHB,21 Iceboat Ter,3801,M5V,Condominium,10,Spadina-Fort York
 STR-2101-HDMBHJ,140 Margueretta St,,M6H,Townhouse/ Row House,9,Davenport
+STR-2101-FGKXVB,11 Eldon Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2101-HFCPHJ,241 Brunswick Ave,house upstairs,M5S,Single/Semi-detached House,11,University-Rosedale
 STR-2101-GQGBHG,20 Fourth St,,M5J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2101-FSCPHC,122 Kendal Ave,B,M5R,Duplex/Triplex/Fourplex,11,University-Rosedale
@@ -694,7 +695,6 @@ STR-2101-GCXXVF,769 Lansdowne Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2101-HSDXVL,9 Robinson St,,M6J,Townhouse/ Row House,10,Spadina-Fort York
 STR-2101-FWHKVD,3 Bolger Pl,3,M9W,Single/Semi-detached House,1,Etobicoke North
 STR-2101-HCHKVJ,116 Rosemount Ave,,M9N,Single/Semi-detached House,5,York South-Weston
-STR-2101-FGKXVB,11 Eldon Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2101-FWXXVD,9 Meaford Ave,B,M8V,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2101-FQHKVC,155 Yorkville Ave,504,M5R,Condominium,11,University-Rosedale
 STR-2101-GPBKVG,41 Derwyn Rd,,M4J,Single/Semi-detached House,14,Toronto-Danforth
@@ -711,13 +711,13 @@ STR-2101-JGKXVM,14 York St,504,M5J,Condominium,10,Spadina-Fort York
 STR-2101-HYWRVM,300 Front St W,2810,M5V,Condominium,10,Spadina-Fort York
 STR-2101-HJZDVK,114 Claremore Ave,,M1N,Single/Semi-detached House,20,Scarborough Southwest
 STR-2101-GMMDVG,4 Forest Laneway,2501,M2N,Apartment,18,Willowdale
+STR-2101-GYGDVH,888 Queen St W,Upper,M6J,Duplex/Triplex/Fourplex,10,Spadina-Fort York
 STR-2101-HLGDVK,118 Northland Ave,,M6N,Single/Semi-detached House,5,York South-Weston
 STR-2101-HDQRVJ,68 Grangeway Ave,1910,M1H,Condominium,24,Scarborough-Guildwood
 STR-2101-FQZDVC,109 Northcliffe Blvd,,M6E,Single/Semi-detached House,9,Davenport
 STR-2101-GPTDVG,23 Beresford Ave,,M6S,Apartment,4,Parkdale-High Park
 STR-2101-HVTDVL,163 Clifton Ave,,M3H,Single/Semi-detached House,6,York Centre
 STR-2211-HWGXVL,456 Queen St W,2,M5V,Apartment,10,Spadina-Fort York
-STR-2101-GYGDVH,888 Queen St W,Upper,M6J,Duplex/Triplex/Fourplex,10,Spadina-Fort York
 STR-2101-HBDXVJ,210 Victoria St,2803,M5B,Condominium,13,Toronto Centre
 STR-2101-HJKXVK,219 Fort York Blvd,1401,M5V,Condominium,10,Spadina-Fort York
 STR-2101-FWKXVD,88 Prust Ave,,M4L,Single/Semi-detached House,14,Toronto-Danforth
@@ -742,9 +742,9 @@ STR-2102-GXCRVH,270 Wellington St W,1017,M5V,Condominium,10,Spadina-Fort York
 STR-2102-HVWRVL,215 Fort York Blvd,1803,M5V,Condominium,10,Spadina-Fort York
 STR-2102-FRTDVC,300 Front St W,2107,M5V,Condominium,10,Spadina-Fort York
 STR-2102-JDTDVM,58 Parkway Ave,,M6R,Single/Semi-detached House,4,Parkdale-High Park
-STR-2102-GBWRVD,107 Massey St,3,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2102-HXTDVL,402 O'Connor Dr,,M4J,Single/Semi-detached House,14,Toronto-Danforth
 STR-2102-JFZDVM,300 Front St W,2004,M5V,Condominium,10,Spadina-Fort York
+STR-2102-GBWRVD,107 Massey St,3,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2102-HJPKVK,300 Front St W,3301,M5V,Condominium,10,Spadina-Fort York
 STR-2102-GLKXVG,369 Shuter St,2,M5A,Townhouse/ Row House,13,Toronto Centre
 STR-2102-GTRXVH,101 Peter Street,1001,M5V,Condominium,10,Spadina-Fort York
@@ -924,13 +924,11 @@ STR-2211-GPVBHT,15 Wedgewood Dr,,M2M,Single/Semi-detached House,18,Willowdale
 STR-2211-HPVBHX,262 Euclid Ave,,M6J,Single/Semi-detached House,11,University-Rosedale
 STR-2211-HVVBHY,129 Silver Birch Ave,,M4E,Single/Semi-detached House,19,Beaches-East York
 STR-2211-HFXPHW,6 Eva Rd,1609,M9C,Condominium,2,Etobicoke Centre
-STR-2211-GBWHHR,410 Dufferin St,918,M6K,Condominium,9,Davenport
 STR-2211-FSHBHQ,361 Waverley Rd,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2211-GHVBHS,59 Guestville Ave,,M6N,Single/Semi-detached House,5,York South-Weston
 STR-2211-GYHBHV,514 Wilson Heights Blvd,,M3H,Single/Semi-detached House,6,York Centre
 STR-2211-HGPBHW,560 Front St W,532,M5V,Condominium,10,Spadina-Fort York
 STR-2211-JFHBHZ,111 St Clair Ave W,1602,M4V,Condominium,12,Toronto-St. Paul's
-STR-2211-FKRPHP,181 Downsview Park Blvd,,M3K,Townhouse/ Row House,6,York Centre
 STR-2211-HXRPHY,48 Marbury Cres,,M3A,Single/Semi-detached House,16,Don Valley East
 STR-2211-JFXPHZ,141 Davisville Ave,1010,M4S,Apartment,12,Toronto-St. Paul's
 STR-2211-FLHBHP,209 Fort York Blvd,176,M5V,Condominium,10,Spadina-Fort York
@@ -968,6 +966,7 @@ STR-2211-GJLVHS,830 Lawrence Ave W,1904,M6A,Condominium,8,Eglinton-Lawrence
 STR-2211-GYYVHV,152 Petworth Cres,,M1S,Single/Semi-detached House,22,Scarborough-Agincourt
 STR-2211-HXSVHY,955 Bay St,724,M5S,Condominium,13,Toronto Centre
 STR-2211-FLJHHP,208 Churchill Ave,,M2R,Single/Semi-detached House,18,Willowdale
+STR-2211-GBWHHR,410 Dufferin St,918,M6K,Condominium,9,Davenport
 STR-2211-GSJHHT,101 Elmer Ave,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2211-HRCHHX,166 Huron St,C,M5T,Single/Semi-detached House,11,University-Rosedale
 STR-2211-FDVBHP,119 Pleasant Ave,,M2M,Single/Semi-detached House,18,Willowdale
@@ -1009,11 +1008,13 @@ STR-2212-JFKPHZ,231 Fort York Blvd,108,M5V,Condominium,10,Spadina-Fort York
 STR-2212-GRVBHT,21 Iceboat Ter,2707,M5V,Condominium,10,Spadina-Fort York
 STR-2212-GZBBHV,6 Kent Rd,,M4L,Single/Semi-detached House,14,Toronto-Danforth
 STR-2212-JGBBHZ,87 Peter St,4616,M5V,Condominium,10,Spadina-Fort York
+STR-2212-FTRPHQ,80 Western Battery Rd,LPH 11,M6K,Condominium,10,Spadina-Fort York
 STR-2212-GKDPHS,175 Maria St,,M6P,Single/Semi-detached House,4,Parkdale-High Park
 STR-2212-HRDPHX,21 Iceboat Ter,4003,M5V,Condominium,10,Spadina-Fort York
 STR-2212-FDWHHP,43 MacLeod St,,M6L,Single/Semi-detached House,5,York South-Weston
 STR-2212-FMCHHQ,65 Bremner Blvd,3008,M5J,Condominium,10,Spadina-Fort York
 STR-2302-HMVDVX,155 Church St,201,M5B,Apartment,13,Toronto Centre
+STR-2212-GDXPHS,472 Margueretta St,Bsmt,M6H,Single/Semi-detached House,9,Davenport
 STR-2212-GLLVHT,101 Peter St,3611,M5V,Condominium,10,Spadina-Fort York
 STR-2212-HBYVHW,955 Bay St,1907,M5S,Condominium,13,Toronto Centre
 STR-2212-HSLVHY,120 Harrison Garden Blvd,1407,M2N,Condominium,18,Willowdale
@@ -1052,7 +1053,6 @@ STR-2212-HRXPHY,87 Peter St,4615,M5V,Condominium,10,Spadina-Fort York
 STR-2212-GDHBHS,584 Parliament St,1,M4X,Townhouse/ Row House,13,Toronto Centre
 STR-2212-GLPBHT,651 Jane St,,M6N,Single/Semi-detached House,5,York South-Weston
 STR-2212-GTVBHV,67 Parkington Cres,,M1H,Single/Semi-detached House,24,Scarborough-Guildwood
-STR-2212-GDXPHS,472 Margueretta St,Bsmt,M6H,Single/Semi-detached House,9,Davenport
 STR-2212-GVKPHV,87 Lesmount Ave,,M4J,Single/Semi-detached House,14,Toronto-Danforth
 STR-2212-HKXPHX,26 Sarah Ashbridge Ave,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2212-FQBBHQ,169A Chisholm Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
@@ -1533,7 +1533,6 @@ STR-2302-GHKRVS,209 Fort York Blvd,1262,M5V,Condominium,10,Spadina-Fort York
 STR-2302-GQRRVT,10 Jayzel Dr,405,M9M,Apartment,7,Humber River-Black Creek
 STR-2302-GXXRVV,135 Marlee Ave,204,M6B,Condominium,8,Eglinton-Lawrence
 STR-2302-HGDRVW,20 Prust Ave,,M4L,Single/Semi-detached House,14,Toronto-Danforth
-STR-2302-GKHDVS,151 Dan Leckie Way,917,M5V,Condominium,10,Spadina-Fort York
 STR-2302-GRHDVT,81 Fishleigh Dr,,M1N,Single/Semi-detached House,20,Scarborough Southwest
 STR-2302-HGVDVW,65 Bremner Blvd,1203,M5J,Condominium,10,Spadina-Fort York
 STR-2302-HXHDVY,18 Sawley Dr,,M2K,Single/Semi-detached House,17,Don Valley North
@@ -1544,6 +1543,7 @@ STR-2302-HHKRVW,31 Braywin Dr,,M9P,Single/Semi-detached House,1,Etobicoke North
 STR-2302-JGDRVZ,231 Fort York Blvd,111,M5V,Condominium,10,Spadina-Fort York
 STR-2302-FLPDVP,134 Hove St,,M3H,Single/Semi-detached House,6,York Centre
 STR-2302-FTVDVQ,1553 Bloor St W,7,M6P,Apartment,4,Parkdale-High Park
+STR-2302-GKHDVS,151 Dan Leckie Way,917,M5V,Condominium,10,Spadina-Fort York
 STR-2302-GSPDVT,21 Iceboat Ter,4615,M5V,Condominium,10,Spadina-Fort York
 STR-2302-HRHDVX,12 York St,411,M5J,Condominium,10,Spadina-Fort York
 STR-2302-HYPDVY,15 Iceboat Ter,3307,M5V,Condominium,10,Spadina-Fort York
@@ -1659,7 +1659,6 @@ STR-2303-GZHDVV,25 Newton Dr,,M2M,Single/Semi-detached House,18,Willowdale
 STR-2303-HHPDVW,65 Bremner Blvd,2003,M5J,Condominium,10,Spadina-Fort York
 STR-2303-HQVDVX,627 Davenport Rd,,M5R,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2303-HYBDVY,41 Dundonald St,1702,M4Y,Apartment,13,Toronto Centre
-STR-2303-FTXRVQ,200 Dufferin St,603,M6K,Apartment,4,Parkdale-High Park
 STR-2303-GCDRVR,300 Front St W,3704,M5V,Condominium,10,Spadina-Fort York
 STR-2303-GKKRVS,69 Oakmount Rd,2,M6P,Apartment,4,Parkdale-High Park
 STR-2303-HJDRVW,300 Front St W,701,M5V,Condominium,10,Spadina-Fort York
@@ -1758,7 +1757,6 @@ STR-2303-HKPHHX,251 Jarvis St,2513,M5B,Condominium,13,Toronto Centre
 STR-2303-HSVHHY,65 Bremner Blvd,4509,M5J,Condominium,10,Spadina-Fort York
 STR-2303-JBBHHZ,251 Jarvis St,1618,M5B,Condominium,13,Toronto Centre
 STR-2303-FWXVHR,251 St George St,10,M5R,Apartment,11,University-Rosedale
-STR-2303-GFDVHS,48 Grenoble Dr,503,M3C,Apartment,16,Don Valley East
 STR-2303-GMKVHT,124 Goulding Ave,,M2M,Single/Semi-detached House,18,Willowdale
 STR-2303-GVRVHV,1 Faulkner Cres,,M9M,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2303-HCXVHW,60 Millhouse Cres,,M1B,Single/Semi-detached House,25,Scarborough-Rouge Park
@@ -1861,7 +1859,6 @@ STR-2303-GJJPHS,7 Walmer Rd,2003,M5R,Apartment,11,University-Rosedale
 STR-2303-GRQPHT,11 Michael Power Pl,103,M9A,Condominium,3,Etobicoke-Lakeshore
 STR-2303-GYWPHV,176 Empress Ave,,M2N,Single/Semi-detached House,18,Willowdale
 STR-2303-HQJPHX,23 Earl St,,M4Y,Townhouse/ Row House,13,Toronto Centre
-STR-2303-HYXVHZ,28 Minto St,,M4L,Single/Semi-detached House,14,Toronto-Danforth
 STR-2303-FLGBHP,39 Roehampton Ave,802,M4P,Condominium,12,Toronto-St. Paul's
 STR-2303-GBTBHR,101 Yonge Blvd,,M5M,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2303-GSGBHT,625 Queen St E,610,M4M,Condominium,14,Toronto-Danforth
@@ -1874,6 +1871,7 @@ STR-2303-GKRVHT,495 Euclid Ave,2,M6G,Duplex/Triplex/Fourplex,11,University-Rosed
 STR-2303-GSXVHV,80 Withrow Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2303-HBDVHW,27 Eugene St,,M6B,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2303-HRRVHY,10 Rolyat St,A,M6J,Single/Semi-detached House,10,Spadina-Fort York
+STR-2303-HYXVHZ,28 Minto St,,M4L,Single/Semi-detached House,14,Toronto-Danforth
 STR-2303-FMPHHQ,585 Bloor St E,3418,M4W,Condominium,13,Toronto Centre
 STR-2303-GDBHHS,270 Wellington St W,825,M5V,Condominium,10,Spadina-Fort York
 STR-2303-GLHHHT,770 Bay St,412,M5G,Condominium,11,University-Rosedale
@@ -1887,6 +1885,7 @@ STR-2303-FPDVHQ,6 Lippincott St,1,M5T,Single/Semi-detached House,11,University-R
 STR-2303-FWKVHR,66 Shandon Dr,,M1R,Single/Semi-detached House,21,Scarborough Centre
 STR-2303-GDRVHS,269 Major St,,M5S,Single/Semi-detached House,11,University-Rosedale
 STR-2303-GLXVHT,41 Heathrow Dr,Main Floor,M3M,Single/Semi-detached House,6,York Centre
+STR-2303-JDRVHZ,69 Oakmount Rd,1,M6P,Apartment,4,Parkdale-High Park
 STR-2303-HCKVHW,19 Broadbridge Dr,,M1C,Single/Semi-detached House,25,Scarborough-Rouge Park
 STR-2303-HKRVHX,65 Bremner Blvd,3905,M5J,Condominium,10,Spadina-Fort York
 STR-2303-JBDVHZ,327 Coronation Dr,,M1E,Single/Semi-detached House,25,Scarborough-Rouge Park
@@ -1920,7 +1919,6 @@ STR-2303-GQKVHT,2655 Midland Ave,,M1S,Single/Semi-detached House,23,Scarborough 
 STR-2303-GXRVHV,30 Woodstream Dr,14,M9W,Townhouse/ Row House,1,Etobicoke North
 STR-2303-HPDVHX,27 Rean Dr,524,M2K,Condominium,17,Don Valley North
 STR-2303-HWKVHY,21 Carlton St,1305,M5B,Condominium,13,Toronto Centre
-STR-2303-JDRVHZ,69 Oakmount Rd,1,M6P,Apartment,4,Parkdale-High Park
 STR-2303-FSHHHQ,1 Greencoat Rd,,M9C,Single/Semi-detached House,2,Etobicoke Centre
 STR-2303-GHVHHS,34 Goulden Cres,,M1L,Single/Semi-detached House,20,Scarborough Southwest
 STR-2303-GRBHHT,50 Hillsboro Ave,1503,M5R,Apartment,11,University-Rosedale
@@ -2045,7 +2043,6 @@ STR-2304-FQPHHQ,21 Iceboat Ter,2207,M5V,Condominium,10,Spadina-Fort York
 STR-2304-GWPHHV,7 Grenville St,5201,M4Y,Condominium,13,Toronto Centre
 STR-2304-HDVHHW,44 Valley Woods Rd,2205,M3A,Condominium,16,Don Valley East
 STR-2304-HMBHHX,75 Emmett Ave,2415,M6M,Condominium,5,York South-Weston
-STR-2304-HWPHHY,330 Brooke Ave,,M5M,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2304-FHXVHP,100 Long Branch,11,M8W,Condominium,3,Etobicoke-Lakeshore
 STR-2304-FRDVHQ,839C Oxford St,,M8Z,Townhouse/ Row House,3,Etobicoke-Lakeshore
 STR-2304-FYKVHR,155 Huron St,,M5T,Single/Semi-detached House,11,University-Rosedale
@@ -2059,9 +2056,10 @@ STR-2304-FJPHHP,14 York St,501,M5J,Condominium,10,Spadina-Fort York
 STR-2304-FRVHHQ,188 Cumberland St,2510,M5R,Condominium,11,University-Rosedale
 STR-2304-FZBHHR,32 Coppermill Dr,,M9W,Single/Semi-detached House,1,Etobicoke North
 STR-2304-GHHHHS,250 Estelle Ave,,M2N,Single/Semi-detached House,18,Willowdale
+STR-2304-HQPHHX,525 Ossington Ave,3,M6G,Apartment,11,University-Rosedale
 STR-2304-GXVHHV,16 Abell St,,M6J,Condominium,9,Davenport
 STR-2304-HGBHHW,59 Old Mill Dr,,M6S,Single/Semi-detached House,4,Parkdale-High Park
-STR-2304-GZWPHV,4340 bathurst st,507,M3H,Apartment,6,York Centre
+STR-2304-HWPHHY,330 Brooke Ave,,M5M,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2304-JDVHHZ,283 Spadina Ave,401,M5T,Apartment,10,Spadina-Fort York
 STR-2304-FKDVHP,81 Summerhill Ave,,M4T,Townhouse/ Row House,11,University-Rosedale
 STR-2304-FSKVHQ,8 Gladstone Ave,608,M6J,Condominium,9,Davenport
@@ -2073,7 +2071,6 @@ STR-2304-HXDVHY,103 Avenue Rd,404,M5R,Apartment,11,University-Rosedale
 STR-2304-FKVHHP,80 Glenstroke Dr,,M1S,Single/Semi-detached House,23,Scarborough North
 STR-2304-GBHHHR,10 Killamarsh Dr,,M3J,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2304-GJPHHS,18 Dignam Crt,,M1J,Single/Semi-detached House,21,Scarborough Centre
-STR-2304-HQPHHX,525 Ossington Ave,3,M6G,Apartment,11,University-Rosedale
 STR-2304-JGBHHZ,53 Sherwood Ave,,M4P,Single/Semi-detached House,15,Don Valley West
 STR-2304-FLKVHP,163 Manning Ave,Main,M6J,Duplex/Triplex/Fourplex,10,Spadina-Fort York
 STR-2304-FTRVHQ,77 Delburn Dr,,M1V,Single/Semi-detached House,23,Scarborough North
@@ -2240,7 +2237,6 @@ STR-2304-HBMBHW,390 Dixon Rd,1207,M9R,Condominium,1,Etobicoke North
 STR-2304-HJTBHX,232 Blackthorn Ave,,M6N,Single/Semi-detached House,9,Davenport
 STR-2304-HRZBHY,10 Rockvale Ave,,M6E,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2304-HZGBHZ,30 Cheritan Ave,,M4R,Single/Semi-detached House,8,Eglinton-Lawrence
-STR-2304-HJCPHW,118 William St,,M9N,Single/Semi-detached House,5,York South-Weston
 STR-2304-FMWPHQ,71 Wroxeter Ave,,M4J,Single/Semi-detached House,14,Toronto-Danforth
 STR-2304-FWCPHR,219 Fort York Blvd,2705,M5V,Condominium,10,Spadina-Fort York
 STR-2304-GDJPHS,51 Tidworth Sq,,M1S,Single/Semi-detached House,23,Scarborough North
@@ -2271,7 +2267,6 @@ STR-2304-GGGBHS,15 Iceboat Ter,3702,M5V,Condominium,10,Spadina-Fort York
 STR-2304-HDZBHW,19 Markham St,1,M6J,Duplex/Triplex/Fourplex,10,Spadina-Fort York
 STR-2304-HMGBHX,8 Charlotte St,1103,M5V,Condominium,10,Spadina-Fort York
 STR-2304-JCTBHZ,78 Walmer Rd,,M5R,Single/Semi-detached House,11,University-Rosedale
-STR-2305-GBPHHR,72 Gerrard St W,1,M5G,Apartment,11,University-Rosedale
 STR-2304-GGWPHS,251 Grenview Blvd S,,M8Y,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2304-GQCPHT,70 Sarah Ashbridge Ave,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2304-HFQPHW,350 Queens Quay W,1304,M5V,Apartment,10,Spadina-Fort York
@@ -2297,6 +2292,7 @@ STR-2304-FTWPHQ,630 Evans Ave,8,M8W,Townhouse/ Row House,3,Etobicoke-Lakeshore
 STR-2304-GCCPHR,511 Bellamy Rd N,,M1H,Single/Semi-detached House,24,Scarborough-Guildwood
 STR-2304-GKJPHS,300 Front St W,3813,M5V,Condominium,10,Spadina-Fort York
 STR-2304-GSQPHT,131 Frederick Tisdale Dr,,M3K,Townhouse/ Row House,6,York Centre
+STR-2304-HJCPHW,118 William St,,M9N,Single/Semi-detached House,5,York South-Weston
 STR-2304-HRJPHX,426 Montrose Ave,2,M6G,Duplex/Triplex/Fourplex,11,University-Rosedale
 STR-2304-HYQPHY,155 Yorkville Ave,3108,M5R,Condominium,11,University-Rosedale
 STR-2304-JGWPHZ,300 Front St W,907,M5V,Condominium,10,Spadina-Fort York
@@ -2314,7 +2310,6 @@ STR-2304-FWDVHR,135 Village Green Sq,925,M1S,Condominium,22,Scarborough-Agincour
 STR-2304-GDKVHS,61 Grant St,,M4M,Townhouse/ Row House,14,Toronto-Danforth
 STR-2304-HCDVHW,6 Arkley Cres,,M9R,Single/Semi-detached House,2,Etobicoke Centre
 STR-2304-HKKVHX,360 Patricia Ave,,M2R,Single/Semi-detached House,18,Willowdale
-STR-2305-HTKXVY,410 Dufferin St,416,M6K,Condominium,9,Davenport
 STR-2304-HSRVHY,17 Princess St,,M5A,Townhouse/ Row House,10,Spadina-Fort York
 STR-2304-FPPHHQ,457 Brock Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2304-FWVHHR,120 Canon Jackson Dr,102,M6M,Condominium,5,York South-Weston
@@ -2361,6 +2356,7 @@ STR-2305-HQDVHX,46 Pembroke St,3,M5A,Single/Semi-detached House,13,Toronto Centr
 STR-2305-JFRVHZ,231 Fort York Blvd,215,M5V,Condominium,10,Spadina-Fort York
 STR-2305-FLBHHP,14 York St,3610,M5J,Condominium,10,Spadina-Fort York
 STR-2305-FTHHHQ,1048 College St,1,M6H,Apartment,9,Davenport
+STR-2305-GBPHHR,72 Gerrard St W,1,M5G,Apartment,11,University-Rosedale
 STR-2305-GJVHHS,14 York St,5804,M5J,Condominium,10,Spadina-Fort York
 STR-2305-GSBHHT,209 Fort York Blvd,869,M5V,Condominium,10,Spadina-Fort York
 STR-2305-GZHHHV,251 Jarvis St,1218,M5B,Condominium,13,Toronto Centre
@@ -2464,7 +2460,6 @@ STR-2305-GCXXVS,107 Searle Ave,,M3H,Single/Semi-detached House,6,York Centre
 STR-2305-GLDXVT,251 Jarvis St,725,M5B,Condominium,13,Toronto Centre
 STR-2305-GTKXVV,72 Dewson St,1,M6H,Duplex/Triplex/Fourplex,9,Davenport
 STR-2305-HBRXVW,12 Goldfinch Crt,605,M2R,Apartment,6,York Centre
-STR-2305-HSWRVY,2 Russett Ave,2,M6H,Duplex/Triplex/Fourplex,9,Davenport
 STR-2305-HZKXVZ,29 Alma Ave,Laneway,M6J,Single/Semi-detached House,9,Davenport
 STR-2305-FFVKVP,20 John St,224,M5V,Condominium,10,Spadina-Fort York
 STR-2305-FPBKVQ,12 York St,501,M5J,Condominium,10,Spadina-Fort York
@@ -2478,6 +2473,7 @@ STR-2305-FWXXVR,22 Gough Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2305-GFDXVS,77 St Georges Blvd,,M9R,Single/Semi-detached House,1,Etobicoke North
 STR-2305-GMKXVT,27 Overbank Cres,,M3A,Single/Semi-detached House,16,Don Valley East
 STR-2305-HCXXVW,87 Peter St,605,M5V,Condominium,10,Spadina-Fort York
+STR-2305-HTKXVY,410 Dufferin St,416,M6K,Condominium,9,Davenport
 STR-2305-JBRXVZ,151 Dan Leckie Way,2103,M5V,Apartment,10,Spadina-Fort York
 STR-2305-FHBKVP,640 Woodbine Ave,,M4E,Duplex/Triplex/Fourplex,19,Beaches-East York
 STR-2305-FQHKVQ,141 Connaught Ave,,M2M,Single/Semi-detached House,18,Willowdale
@@ -2534,6 +2530,7 @@ STR-2305-GDQRVS,155 Yorkville Ave,802,M5R,Condominium,11,University-Rosedale
 STR-2305-GLWRVT,346 Davenport Rd,205,M5R,Condominium,11,University-Rosedale
 STR-2305-HCJRVW,14 York St,4911,M5J,Condominium,10,Spadina-Fort York
 STR-2305-HKQRVX,374 Harbord St,,M6G,Apartment,11,University-Rosedale
+STR-2305-HSWRVY,2 Russett Ave,2,M6H,Duplex/Triplex/Fourplex,9,Davenport
 STR-2305-JBCRVZ,33 Dundonald St,1,M4Y,Townhouse/ Row House,13,Toronto Centre
 STR-2305-FGMDVP,300 Front St W,2710,M5V,Condominium,10,Spadina-Fort York
 STR-2305-FPTDVQ,300 Front St W,1606,M5V,Condominium,10,Spadina-Fort York
@@ -2634,6 +2631,7 @@ STR-2210-HHKKVJ,90 Niagara St,313,M5V,Condominium,10,Spadina-Fort York
 STR-2210-HQRKVK,16 Sellers Ave,,M6E,Single/Semi-detached House,9,Davenport
 STR-2210-FLMXVB,28 Linden St,207,M4Y,Condominium,13,Toronto Centre
 STR-2210-FTTXVC,80 Western Battery Rd,2210,M6K,Condominium,10,Spadina-Fort York
+STR-2210-JDJDVM,200 Dufferin St,19,M6K,Apartment,4,Parkdale-High Park
 STR-2210-GSMXVG,350 Harbord St,,M6G,Apartment,11,University-Rosedale
 STR-2210-HHZXVJ,1468 King St W,Main,M6K,Single/Semi-detached House,4,Parkdale-High Park
 STR-2210-HRGXVK,22 Sarnia Ave,,M6P,Single/Semi-detached House,9,Davenport
@@ -2661,7 +2659,6 @@ STR-2210-HMFRVK,7 Yvonne Ave,,M3L,Single/Semi-detached House,7,Humber River-Blac
 STR-2210-GXJDVH,1576 Queen St W,2,M6R,Apartment,4,Parkdale-High Park
 STR-2210-HFQDVJ,142 Eaton Ave,,M4J,Single/Semi-detached House,14,Toronto-Danforth
 STR-2210-HMWDVK,8 Charlotte St,416,M5V,Condominium,10,Spadina-Fort York
-STR-2210-JDJDVM,200 Dufferin St,19,M6K,Apartment,4,Parkdale-High Park
 STR-2210-FZFRVD,44 Springhurst Ave,3,M6K,Single/Semi-detached House,4,Parkdale-High Park
 STR-2210-GXYRVH,21 Iceboat Ter,2702,M5V,Condominium,10,Spadina-Fort York
 STR-2210-HGFRVJ,3 Rockwell Ave,,M6N,Single/Semi-detached House,9,Davenport
@@ -2715,7 +2712,6 @@ STR-2210-HYRKVL,30 Nelson St,3303,M5V,Condominium,10,Spadina-Fort York
 STR-2210-HJWDVK,48 Talent Cres,,M9M,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2210-FFSRVB,67 Ruthmar Cres,,M3N,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2210-FWFRVD,320 Richmond St E,1212,M5A,Condominium,13,Toronto Centre
-STR-2108-HKVPHK,29 Glen Ames,,M4E,Single/Semi-detached House,19,Beaches-East York
 STR-2108-HXTHHL,223 Seaton St,,M5A,Single/Semi-detached House,13,Toronto Centre
 STR-2210-HKLRVK,195 Redpath Ave,3106,M4P,Condominium,15,Don Valley West
 STR-2210-HZYRVM,771 Manning Ave,,M6G,Single/Semi-detached House,11,University-Rosedale
@@ -2742,6 +2738,7 @@ STR-2108-GCPPHF,65 Angus Dr,,M2J,Single/Semi-detached House,17,Don Valley North
 STR-2108-HJPPHK,155 Yorkville Ave,3116,M5R,Condominium,11,University-Rosedale
 STR-2108-FFLBHB,347 Davisville Ave,,M4S,Single/Semi-detached House,15,Don Valley West
 STR-2108-HSLBHL,34 Crow Trl,,M1B,Single/Semi-detached House,23,Scarborough North
+STR-2108-HKVPHK,29 Glen Ames,,M4E,Single/Semi-detached House,19,Beaches-East York
 STR-2108-FPYBHC,21 Rockelm Rd,,M1L,Single/Semi-detached House,20,Scarborough Southwest
 STR-2108-FXVPHD,65 Inniswood Dr,,M1R,Single/Semi-detached House,21,Scarborough Centre
 STR-2108-GGBPHF,10 Doverwood Crt,,M2M,Single/Semi-detached House,18,Willowdale
@@ -2867,6 +2864,7 @@ STR-2111-HMJVHK,111 Davisville Ave,2004,M4S,Apartment,12,Toronto-St. Paul's
 STR-2111-JCWVHM,530 Dufferin St,,M6K,Single/Semi-detached House,9,Davenport
 STR-2111-JDMHHM,17 Daystrom Dr,Lower,M9M,Duplex/Triplex/Fourplex,7,Humber River-Black Creek
 STR-2111-GYCVHH,10 Jeff Dr,,M9C,Single/Semi-detached House,2,Etobicoke Centre
+STR-2111-HJZKVK,419 Spadina Ave,201,M5T,Single/Semi-detached House,11,University-Rosedale
 STR-2111-JGJVHM,99 Broadway Ave,804,M4P,Condominium,12,Toronto-St. Paul's
 STR-2111-FVBRVD,12 Warfield Dr,Lower,M2J,Single/Semi-detached House,17,Don Valley North
 STR-2111-GKPRVG,177 Redpath Ave,1203,M4P,Apartment,12,Toronto-St. Paul's
@@ -2901,7 +2899,6 @@ STR-2111-HJJXVK,55 Bremner Blvd,3101,M5J,Condominium,10,Spadina-Fort York
 STR-2111-HRQXVL,71 Essex St,,M6G,Duplex/Triplex/Fourplex,11,University-Rosedale
 STR-2111-FFGKVB,3 Kinloss Rd,,M9W,Single/Semi-detached House,1,Etobicoke North
 STR-2111-HBTKVJ,154 Ardwick Blvd,,M9M,Single/Semi-detached House,7,Humber River-Black Creek
-STR-2111-HJZKVK,419 Spadina Ave,201,M5T,Single/Semi-detached House,11,University-Rosedale
 STR-2111-FWJXVD,101 Peter St,1210,M5V,Condominium,10,Spadina-Fort York
 STR-2111-JBCXVM,921 College St,2,M6H,Apartment,9,Davenport
 STR-2111-FPTKVC,1353 Victoria Park Ave,,M4B,Single/Semi-detached House,20,Scarborough Southwest
@@ -2975,7 +2972,6 @@ STR-2112-FWPRVD,120 Saturn Rd,,M9C,Single/Semi-detached House,2,Etobicoke Centre
 STR-2201-GMSDVG,57 James St,,M8W,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2201-GVYDVH,55 Paradelle Cres,1,M3N,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2201-HTSDVL,20 John St,622,M5V,Condominium,10,Spadina-Fort York
-STR-2201-FHHRVB,136 Hallam St,,M6H,Duplex/Triplex/Fourplex,9,Davenport
 STR-2201-GPHRVG,47 O'Connor Dr,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2201-HVHRVL,131 Markham St,,M6J,Duplex/Triplex/Fourplex,10,Spadina-Fort York
 STR-2201-JCPRVM,16 Laxton Ave,Main Unit,M6K,Single/Semi-detached House,4,Parkdale-High Park
@@ -3084,7 +3080,6 @@ STR-2202-GTZKVH,38 Glenaden Ave E,,M8Y,Single/Semi-detached House,3,Etobicoke-La
 STR-2202-HCGKVJ,215 Fort York Blvd,1206,M5V,Condominium,10,Spadina-Fort York
 STR-2202-HKMKVK,10 San Romanoway,808,M3N,Apartment,7,Humber River-Black Creek
 STR-2203-HZZKVM,1122 Islington Ave,,M8Z,Single/Semi-detached House,3,Etobicoke-Lakeshore
-STR-2203-FPQXVC,207 Downsview Park Blvd,,M3K,Townhouse/ Row House,6,York Centre
 STR-2203-FGZKVB,1294 Queen St W,A,M6K,Apartment,4,Parkdale-High Park
 STR-2203-FXMKVD,51 Bowmore Rd,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2203-GMZKVG,8 Charlotte St,204,M5V,Condominium,10,Spadina-Fort York
@@ -3102,8 +3097,6 @@ STR-2203-FZJXVD,12 York St,1110,M5J,Condominium,10,Spadina-Fort York
 STR-2203-GHQXVF,103 Bellwoods Ave,,M6J,Townhouse/ Row House,10,Spadina-Fort York
 STR-2203-GQWXVG,25 Oxley St,801,M5V,Condominium,10,Spadina-Fort York
 STR-2203-FSTKVC,215 Fort York Blvd,2811,M5V,Condominium,10,Spadina-Fort York
-STR-2203-HQGKVK,215 Fort York Blvd,3302,M5V,Condominium,10,Spadina-Fort York
-STR-2203-HHQXVJ,43 Markham St,,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2203-HQWXVK,18 Heather Rd,,M1S,Single/Semi-detached House,23,Scarborough North
 STR-2203-HYCXVL,270 Wellington St W,413,M5V,Condominium,10,Spadina-Fort York
 STR-2203-FTZKVC,48 Westmoreland Ave,,M6H,Single/Semi-detached House,9,Davenport
@@ -3115,7 +3108,6 @@ STR-2203-GKPVHG,16 Kidbrooke Cres,,M1M,Single/Semi-detached House,20,Scarborough
 STR-2203-GSVVHH,479 Dovercourt Rd,Main,M6H,Single/Semi-detached House,9,Davenport
 STR-2203-HBBVHJ,681 Adelaide St W,,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2203-HRPVHL,11 Lobb Ave,,M6J,Single/Semi-detached House,10,Spadina-Fort York
-STR-2203-HYVVHM,12 Beardmore Cres,,M2K,Single/Semi-detached House,17,Don Valley North
 STR-2203-GLFHHG,12 Whistling Hills Dr,,M1V,Single/Semi-detached House,23,Scarborough North
 STR-2203-HSFHHL,25 Oxley St,602,M5V,Condominium,10,Spadina-Fort York
 STR-2203-HZLHHM,55 Wynford Heights Cres,1911,M3C,Apartment,16,Don Valley East
@@ -3321,7 +3313,6 @@ STR-2204-FVKBHD,28 Sackville Pl,,M4X,Single/Semi-detached House,13,Toronto Centr
 STR-2204-GCRBHF,89 Beaconsfield Ave,Basement,M6J,Single/Semi-detached House,9,Davenport
 STR-2204-GTDBHH,299 Rhodes Ave,,M4L,Single/Semi-detached House,14,Toronto-Danforth
 STR-2204-HJRBHK,18 Laxton Ave,Basement,M6K,Single/Semi-detached House,4,Parkdale-High Park
-STR-2205-HHBXVJ,181 Bedford Rd,704,M5R,Condominium,11,University-Rosedale
 STR-2204-GLMPHG,8 Wellesley St E,308,M4Y,Condominium,13,Toronto Centre
 STR-2204-HBZPHJ,14 York St,4510,M5J,Condominium,10,Spadina-Fort York
 STR-2204-FGDBHB,10 Humheller Rd,,M9W,Single/Semi-detached House,1,Etobicoke North
@@ -3438,6 +3429,7 @@ STR-2205-JFRBHM,693 Queen St W,3,M6J,Apartment,10,Spadina-Fort York
 STR-2205-FKZPHB,54 Fenwick Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2205-JGGPHM,41 Sunnylea Ave W,,M8Y,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2205-GCDBHD,560 Front St W,1018,M5V,Condominium,10,Spadina-Fort York
+STR-2205-GSRBHG,501 St Clair Ave W,1302,M5P,Condominium,12,Toronto-St. Paul's
 STR-2205-HRKBHK,284 Sherbourne St,2,M5A,Townhouse/ Row House,13,Toronto Centre
 STR-2205-HYRBHL,17 Bromley Cres,,M9A,Single/Semi-detached House,2,Etobicoke Centre
 STR-2205-JGXBHM,560 Front St W,1131,M5V,Condominium,10,Spadina-Fort York
@@ -3496,12 +3488,14 @@ STR-2205-HLDBHK,148 Old Sheppard Ave,,M2J,Single/Semi-detached House,17,Don Vall
 STR-2205-JBRBHM,14 York St,4408,M5J,Condominium,10,Spadina-Fort York
 STR-2205-GFTPHF,47 Lewis St,2,M4M,Single/Semi-detached House,14,Toronto-Danforth
 STR-2205-HLTPHK,5 Greystone Walk Dr,515,M1K,Condominium,20,Scarborough Southwest
+STR-2205-HHBXVJ,181 Bedford Rd,704,M5R,Condominium,11,University-Rosedale
 STR-2205-GGKBHF,6 Glen Muir Dr,,M1M,Single/Semi-detached House,20,Scarborough Southwest
 STR-2205-GPRBHG,707 Mortimer Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2205-HFDBHJ,1676 St Clair Ave W,,M6N,Apartment,9,Davenport
 STR-2205-JCXBHM,145 St George St,1201,M5R,Apartment,11,University-Rosedale
 STR-2205-FJGPHB,52 Perth Ave,,M6R,Townhouse/ Row House,9,Davenport
 STR-2205-GXMPHH,71 Niagara St,Upper Unit,M5V,Townhouse/ Row House,10,Spadina-Fort York
+STR-2205-HXMPHL,899 Lansdowne Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2205-HWGPHL,209 Fort York Blvd,1557,M5V,Condominium,10,Spadina-Fort York
 STR-2205-FJXBHB,15 Deerford Rd,,M2J,Single/Semi-detached House,17,Don Valley North
 STR-2205-GQXBHG,2121 Bathurst St,909,M5N,Apartment,8,Eglinton-Lawrence
@@ -3513,7 +3507,6 @@ STR-2205-FZZPHD,560 Front St W,432,M5V,Condominium,10,Spadina-Fort York
 STR-2205-GYTPHH,313 Richmond St E,770,M5A,Condominium,13,Toronto Centre
 STR-2205-HGZPHJ,361 The West Mall,102,M9C,Apartment,2,Etobicoke Centre
 STR-2205-HQGPHK,21 Westminster Ave,,M6R,Townhouse/ Row House,4,Parkdale-High Park
-STR-2205-HXMPHL,899 Lansdowne Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2205-JFTPHM,41 Creekbank Rd,Upper,M6L,Townhouse/ Row House,5,York South-Weston
 STR-2205-GBRBHD,17 Farmstead Rd,503,M2L,Apartment,15,Don Valley West
 STR-2205-GKMPHF,78 King Edward Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
@@ -3829,7 +3822,6 @@ STR-2207-FMHXVC,49 White Birch Rd,,M1N,Single/Semi-detached House,20,Scarborough
 STR-2207-GTHXVH,140 Simcoe St,1003,M5H,Condominium,10,Spadina-Fort York
 STR-2207-HBPXVJ,560 Front St W,728,M5V,Condominium,10,Spadina-Fort York
 STR-2207-GLSKVG,37 Ashburnham Rd,,M6H,Single/Semi-detached House,9,Davenport
-STR-2207-JCFKVM,50 West Ave,Basement,M4M,Single/Semi-detached House,14,Toronto-Danforth
 STR-2207-FGHXVB,32 Brown's Line,,M8W,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2207-FWVXVD,1824 Gerrard St E,,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2207-GVPXVH,114 Denton Ave,,M1L,Single/Semi-detached House,20,Scarborough Southwest
@@ -3837,6 +3829,7 @@ STR-2207-FXLKVD,12 York St,2302,M5J,Condominium,10,Spadina-Fort York
 STR-2207-GFSKVF,66 Lanark Ave,,M6E,Townhouse/ Row House,12,Toronto-St. Paul's
 STR-2207-HDLKVJ,99 Westhumber Blvd,Lower,M9W,Duplex/Triplex/Fourplex,1,Etobicoke North
 STR-2207-HTYKVL,26 Carus Ave,,M6G,Single/Semi-detached House,12,Toronto-St. Paul's
+STR-2207-JCFKVM,50 West Ave,Basement,M4M,Single/Semi-detached House,14,Toronto-Danforth
 STR-2207-FHPXVB,215 Fort York Blvd,3203,M5V,Condominium,10,Spadina-Fort York
 STR-2207-FQVXVC,30 Breadner Dr,,M9R,Single/Semi-detached House,2,Etobicoke Centre
 STR-2207-GGHXVF,24 Glenavy Ave,,M4P,Single/Semi-detached House,15,Don Valley West
@@ -3899,6 +3892,7 @@ STR-2207-FLDDVB,221 Bain Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
 STR-2207-GJXDVF,2256 Queen St E,Unit A,M4E,Townhouse/ Row House,19,Beaches-East York
 STR-2207-GSDDVG,624 Shaw St,,M6G,Single/Semi-detached House,11,University-Rosedale
 STR-2207-HHRDVJ,93 Springhurst Ave,,M6K,Single/Semi-detached House,4,Parkdale-High Park
+STR-2207-HYDDVL,955 Bay St,2001,M5S,Condominium,13,Toronto Centre
 STR-2207-FTZRVC,43 Woodbine Ave,Main,M4L,Single/Semi-detached House,19,Beaches-East York
 STR-2207-GCGRVD,41 Brookfield St,,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2207-FDQBHB,155 Yorkville Ave,1418,M5R,Condominium,11,University-Rosedale
@@ -4113,6 +4107,7 @@ STR-2208-HVKHHL,5 Temple Ave,Main Floor,M6K,Apartment,10,Spadina-Fort York
 STR-2208-GGTVHF,280 Woburn Ave,,M5M,Single/Semi-detached House,8,Eglinton-Lawrence
 STR-2208-HFMVHJ,481 Concord Ave,,M6H,Single/Semi-detached House,9,Davenport
 STR-2208-HMTVHK,95 Bathurst St,917,M5V,Condominium,10,Spadina-Fort York
+STR-2208-JFMVHM,8 Ferndale Ave,,M4T,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2208-JDGVHM,52 Jay St,,M6L,Single/Semi-detached House,5,York South-Weston
 STR-2208-FRXHHC,12 Glenavon Rd,1,M6K,Single/Semi-detached House,4,Parkdale-High Park
 STR-2208-FZDHHD,24 Westbrook Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
@@ -4122,7 +4117,6 @@ STR-2208-JDXHHM,615 Adelaide St W,,M6J,Townhouse/ Row House,10,Spadina-Fort York
 STR-2208-FZTVHD,27 Dixon Rd,,M9P,Single/Semi-detached House,2,Etobicoke Centre
 STR-2208-GRGVHG,11 Jacinta Dr,,M6L,Single/Semi-detached House,5,York South-Weston
 STR-2208-HPZVHK,100 Dupont St,2,M5R,Townhouse/ Row House,11,University-Rosedale
-STR-2208-JFMVHM,8 Ferndale Ave,,M4T,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2208-GBKHHD,14 York St,2008,M5J,Condominium,10,Spadina-Fort York
 STR-2208-GRXHHG,50 Thorncliffe Park Dr,303,M4H,Apartment,15,Don Valley West
 STR-2208-HHKHHJ,736 Bay St,1012,M5G,Condominium,11,University-Rosedale
@@ -4133,6 +4127,7 @@ STR-2208-GCSPHF,221 Sterling Rd,16,M6R,Apartment,9,Davenport
 STR-2208-GKYPHG,772 O'Connor Dr,,M4B,Single/Semi-detached House,19,Beaches-East York
 STR-2208-HBLPHJ,12 York St,2907,M5J,Condominium,10,Spadina-Fort York
 STR-2208-HZFPHM,62 Marion St,Upper,M6R,Single/Semi-detached House,4,Parkdale-High Park
+STR-2208-GWTVHH,430 Main St,,M4C,Townhouse/ Row House,19,Beaches-East York
 STR-2208-FWSPHD,21 Iceboat Ter,825,M5V,Condominium,10,Spadina-Fort York
 STR-2208-GDYPHF,60 Thomas Mulholland Dr,3,M3K,Townhouse/ Row House,6,York Centre
 STR-2208-GVLPHH,30 Bushey Ave,,M6N,Single/Semi-detached House,5,York South-Weston
@@ -4167,6 +4162,7 @@ STR-2208-GKJBHF,58 Earlsdale Ave,Main Unit,M6C,Single/Semi-detached House,9,Dave
 STR-2208-HYQBHL,317 Murray Ross Pkwy,,M3J,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2208-FMGVHC,2 Ollerton Rd,,M3J,Single/Semi-detached House,7,Humber River-Black Creek
 STR-2208-FVMVHD,53 Adamede Cres,,M2H,Single/Semi-detached House,17,Don Valley North
+STR-2208-HQTVHK,249 Harbord St,1,M6G,Duplex/Triplex/Fourplex,11,University-Rosedale
 STR-2208-GKZVHG,5 Caravan Dr,,M3B,Single/Semi-detached House,15,Don Valley West
 STR-2208-GTGVHH,300 Front St W,4308,M5V,Condominium,10,Spadina-Fort York
 STR-2208-FMXHHC,181 Cottonwood Dr,,M3C,Single/Semi-detached House,16,Don Valley East
@@ -4183,7 +4179,6 @@ STR-2208-FXKHHD,23 Pitt Ave,,M1L,Single/Semi-detached House,20,Scarborough South
 STR-2208-GFRHHF,26 Dempster St,,M1T,Single/Semi-detached House,22,Scarborough-Agincourt
 STR-2208-GMXHHG,19 Harlton Cres,,M6M,Single/Semi-detached House,5,York South-Weston
 STR-2208-FQTVHC,1085 Victoria Park Ave,,M4B,Single/Semi-detached House,20,Scarborough Southwest
-STR-2208-GWTVHH,430 Main St,,M4C,Townhouse/ Row House,19,Beaches-East York
 STR-2208-HVMVHL,21 Iceboat Ter,PH08,M5V,Condominium,10,Spadina-Fort York
 STR-2208-FRKHHC,565 Sherbourne St,1911,M4X,Apartment,13,Toronto Centre
 STR-2208-HFRHHJ,8 Wellesley St E,509,M4Y,Condominium,13,Toronto Centre
@@ -4194,7 +4189,6 @@ STR-2208-GJDHHF,98 Burbank Dr,,M2K,Single/Semi-detached House,17,Don Valley Nort
 STR-2208-GYRHHH,14 York St,5912,M5J,Condominium,10,Spadina-Fort York
 STR-2208-FKZVHB,31 Cloverhill Rd,,M8Y,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2208-HHMVHJ,9 John Graham Crt,,M1B,Single/Semi-detached House,25,Scarborough-Rouge Park
-STR-2208-HQTVHK,249 Harbord St,1,M6G,Duplex/Triplex/Fourplex,11,University-Rosedale
 STR-2208-HXZVHL,55 Bremner Blvd,1411,M5J,Condominium,10,Spadina-Fort York
 STR-2208-JGGVHM,1425 Islington Ave,,M9A,Single/Semi-detached House,2,Etobicoke Centre
 STR-2208-GZXHHH,86 Exford Dr,,M1P,Single/Semi-detached House,21,Scarborough Centre
@@ -4337,6 +4331,7 @@ STR-2209-HFXKVJ,60 Emmett Ave,Upper,M6M,Single/Semi-detached House,5,York South-
 STR-2209-HWKKVL,25 Edinborough Crt,,M6N,Duplex/Triplex/Fourplex,5,York South-Weston
 STR-2209-FSGXVC,31 Tyndall Ave,2,M6K,Duplex/Triplex/Fourplex,4,Parkdale-High Park
 STR-2209-HGMXVJ,151 Dan Leckie Way,615,M5V,Condominium,10,Spadina-Fort York
+STR-2209-HBFRVJ,17 Purdon Dr,,M3H,Single/Semi-detached House,6,York Centre
 STR-2209-GJKKVF,22 Western Battery Rd,122,M6K,Townhouse/ Row House,10,Spadina-Fort York
 STR-2209-GRRKVG,117 Falstaff Ave,,M6L,Single/Semi-detached House,5,York South-Weston
 STR-2209-HXRKVL,21 Orchard Park Blvd,,M4L,Single/Semi-detached House,19,Beaches-East York
@@ -4345,7 +4340,6 @@ STR-2209-FLGXVB,50 Foxbar Rd,,M4V,Single/Semi-detached House,12,Toronto-St. Paul
 STR-2209-GSGXVG,10 Oakfield Dr,,M8Y,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2209-HQZXVK,16 Mallon Ave,,M4M,Single/Semi-detached House,14,Toronto-Danforth
 STR-2209-FDSRVB,58 Langside Ave,Upper,M9N,Single/Semi-detached House,5,York South-Weston
-STR-2209-HBFRVJ,17 Purdon Dr,,M3H,Single/Semi-detached House,6,York Centre
 STR-2209-HRSRVL,436 Clinton St,Laneway House,M6G,Single/Semi-detached House,11,University-Rosedale
 STR-2209-GDCDVF,141 Booth Ave,,M4M,Single/Semi-detached House,14,Toronto-Danforth
 STR-2209-GLJDVG,88 Blue Jays Way,1210,M5V,Condominium,10,Spadina-Fort York
@@ -4386,6 +4380,7 @@ STR-2210-HBGXVJ,350 Horsham Ave,,M2R,Single/Semi-detached House,18,Willowdale
 STR-2210-HJMXVK,373 Front St W,2201,M5V,Condominium,10,Spadina-Fort York
 STR-2210-HRTXVL,18 Hollywood Ave,1405,M2N,Condominium,18,Willowdale
 STR-2210-FMRKVC,16 Burlington St,,M8V,Single/Semi-detached House,3,Etobicoke-Lakeshore
+STR-2210-HFKKVJ,155 Downsview Park Blvd,115,M3K,Townhouse/ Row House,6,York Centre
 STR-2210-GDDKVF,56 Avonlea Blvd,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2210-GLKKVG,151 Dawes Rd,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2210-HZRKVM,757 Huntingwood Dr,,M1T,Single/Semi-detached House,22,Scarborough-Agincourt
@@ -4398,6 +4393,7 @@ STR-2210-FGRKVB,41 Dovercourt Rd,610,M6J,Condominium,10,Spadina-Fort York
 STR-2210-GFKKVF,44 Barkwood Cres,,M2H,Single/Semi-detached House,17,Don Valley North
 STR-2210-GMRKVG,215 Fort York Blvd,2010,M5V,Condominium,10,Spadina-Fort York
 STR-2210-GVXKVH,1706 Gerrard St E,,M4L,Single/Semi-detached House,19,Beaches-East York
+STR-2210-HLKKVK,458 Richmond St W,1109,M5V,Condominium,10,Spadina-Fort York
 STR-2210-FHGXVB,12 York St,4203,M5J,Condominium,10,Spadina-Fort York
 STR-2210-FXTXVD,133 Brooklawn Ave,,M1M,Single/Semi-detached House,20,Scarborough Southwest
 STR-2210-GFZXVF,148 Pleasant Ave,,M2M,Single/Semi-detached House,18,Willowdale
@@ -4406,7 +4402,6 @@ STR-2210-HDTXVJ,153 Denison Ave,,M5T,Townhouse/ Row House,11,University-Rosedale
 STR-2210-HLZXVK,8 Flagler St,,M4X,Townhouse/ Row House,13,Toronto Centre
 STR-2210-GPXKVG,14 York St,1108,M5J,Condominium,10,Spadina-Fort York
 STR-2210-GXDKVH,98 Lloyd Manor Rd,,M9B,Single/Semi-detached House,2,Etobicoke Centre
-STR-2210-HFKKVJ,155 Downsview Park Blvd,115,M3K,Townhouse/ Row House,6,York Centre
 STR-2210-FRTXVC,561 Sherbourne St,1503,M4X,Condominium,13,Toronto Centre
 STR-2210-GHGXVF,44 Lowcrest Blvd,,M1T,Single/Semi-detached House,22,Scarborough-Agincourt
 STR-2210-GQMXVG,17 Ferrier Ave,,M4K,Single/Semi-detached House,14,Toronto-Danforth
@@ -4545,13 +4540,14 @@ STR-2106-FFTDVB,141 Rhodes Ave,1,M4L,Duplex/Triplex/Fourplex,14,Toronto-Danforth
 STR-2106-FMZDVC,300 Front St W,3408,M5V,Condominium,10,Spadina-Fort York
 STR-2106-HCGDVJ,270 Wellington St W,1110,M5V,Condominium,10,Spadina-Fort York
 STR-2106-HKMDVK,198 Merton St,,M4S,Townhouse/ Row House,12,Toronto-St. Paul's
-STR-2106-GGJRVF,50 Wells St,Main Floor,M5R,Single/Semi-detached House,11,University-Rosedale
+STR-2305-FXRXVR,1189 Woodbine Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2106-FWWRVD,10 Capreol Crt,1202,M5V,Condominium,10,Spadina-Fort York
 STR-2106-GFCRVF,14 York St,4602,M5J,Condominium,10,Spadina-Fort York
 STR-2106-GMJRVG,95 Grandville Ave,,M6N,Single/Semi-detached House,5,York South-Weston
 STR-2106-GVQRVH,55 Ash Cres,,M8W,Single/Semi-detached House,3,Etobicoke-Lakeshore
 STR-2106-HTJRVL,77 Arlington Ave,,M6G,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2106-FYCRVD,168 Simcoe St,803,M5H,Condominium,10,Spadina-Fort York
+STR-2106-GGJRVF,50 Wells St,Main Floor,M5R,Single/Semi-detached House,11,University-Rosedale
 STR-2106-HVQRVL,219 Fort York Blvd,3702,M5V,Condominium,10,Spadina-Fort York
 STR-2106-GGZDVF,300 Front St W,2412,M5V,Condominium,10,Spadina-Fort York
 STR-2106-HFTDVJ,382 Ontario St,,M5A,Single/Semi-detached House,13,Toronto Centre
@@ -4645,6 +4641,7 @@ STR-2107-GPVPHG,216 Lippincott St,1st Floor,M5S,Duplex/Triplex/Fourplex,11,Unive
 STR-2107-JDBPHM,12 York St,3807,M5J,Condominium,10,Spadina-Fort York
 STR-2107-FJLBHB,153 Shaw St,,M6J,Single/Semi-detached House,10,Spadina-Fort York
 STR-2107-GHVPHF,63A Drewry Ave,,M2M,Townhouse/ Row House,18,Willowdale
+STR-2108-FSYBHC,605 Finch Ave W,102,M2R,Apartment,6,York Centre
 STR-2108-GYYBHH,93 Boulton Ave,,M4M,Townhouse/ Row House,14,Toronto-Danforth
 STR-2108-HQLBHK,635 Greenwood Ave,,M4J,Duplex/Triplex/Fourplex,14,Toronto-Danforth
 STR-2108-JFYBHM,105 George St,1414,M5A,Condominium,13,Toronto Centre
@@ -4676,7 +4673,6 @@ STR-2305-GVVKVV,108 Woodmount Ave,,M4C,Single/Semi-detached House,19,Beaches-Eas
 STR-2305-HTPKVY,103 Wells Hill Ave,,M5R,Single/Semi-detached House,12,Toronto-St. Paul's
 STR-2305-JBVKVZ,717 Lawrence Ave W,43,M6A,Condominium,8,Eglinton-Lawrence
 STR-2305-FQKXVQ,71 Hepbourne St,2,M6H,Duplex/Triplex/Fourplex,9,Davenport
-STR-2305-FXRXVR,1189 Woodbine Ave,,M4C,Single/Semi-detached House,19,Beaches-East York
 STR-2305-GFXXVS,250 Wellington St W,841,M5V,Condominium,10,Spadina-Fort York
 STR-2305-GPDXVT,150 East Liberty St,2608,M6K,Condominium,10,Spadina-Fort York
 STR-2305-HLXXVX,22 William Duncan Rd,,M3K,Townhouse/ Row House,6,York Centre
@@ -8154,3 +8150,9 @@ STR-2403-FRSPHQ,267 Homewood Ave,,M2R,Single/Semi-detached House,18,Willowdale
 STR-2403-FYYPHR,194 Courcelette Rd,,M1N,Single/Semi-detached House,20,Scarborough Southwest
 STR-2403-HFYPHW,324 Mount Pleasant Rd,,M4T,Single/Semi-detached House,11,University-Rosedale
 STR-2403-HPFPHX,629 King St W,1309,M5V,Condominium,10,Spadina-Fort York
+STR-2403-GHWBHS,54 Lockheed Blvd,,M9P,Single/Semi-detached House,2,Etobicoke Centre
+STR-2403-HGQBHW,45 Sunnylea Ave E,,M8Y,Single/Semi-detached House,3,Etobicoke-Lakeshore
+STR-2403-HXCBHY,481 Drewry Ave,,M2R,Single/Semi-detached House,18,Willowdale
+STR-2403-FSYPHQ,356 Riverdale Ave,,M4J,Single/Semi-detached House,14,Toronto-Danforth
+STR-2403-JFYPHZ,62 Carlaw Ave,,M4M,Single/Semi-detached House,14,Toronto-Danforth
+STR-2403-FTQBHQ,22 Somerville Ave,,M6M,Single/Semi-detached House,5,York South-Weston
