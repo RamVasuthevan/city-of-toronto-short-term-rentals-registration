@@ -3,8 +3,7 @@ name: Download, Validate, Process CSV, and Push File
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at UTC midnight
-
+    - cron: '30 12 * * *'  # Run daily at 12:30 UTC
 jobs:
   process_csv:
     runs-on: ubuntu-latest
